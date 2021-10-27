@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*********************************************************************/
+/****************************  HEADER  *******************************/
+
+header{
+    width: 1440px;
+    height: 80px;
+   /* border: 2px solid blue;*/
+   background-color: rgb(247, 247, 241);
+
+}
+.logo{
+    
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+ul{
+    display: inline;
+    margin-left: 630px;
+    margin-top: 30px;
+    position: absolute;
+    width: 590px;
+    height: 23px;
+    align-items: center;
+}
+a{
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+
+}
+button{
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    left: 1295px;
+    top: 20px;
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    text-size-adjust: 50px;
+    color: black;
+    background-color: #57ecf5;
+    border-radius: 7px;
+    border-color: #57ecf5;
+    
+
+}
+button:hover{
+	color: #57ecf5;
+	background-color: #299adb;
+    border-color: #299adb;
+	/*CSS 3*/
+    text-decoration: none;
+	border-radius: 7px;
+
+} 
+/*********************************************************************/
+/****************************  BANNER  *******************************/
+
+.banner{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    background-color: #005caa;
+   /* border: 2px solid red;*/
+}
+.figure{
+    width: 400px;
+    height: 300px;
+    left: 75px;
+    top: 50px;
+}
+.banner figure img{
+    margin-top: 50px;
+    margin-left: 75px;
+
+}
+.texto_banner{
+    position: absolute;
+    width: 571px;
+    height: 275px;
+    left: 790px;
+    top: 80px;
+    text-align: justify;
+}
+.texto_banner h1 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+    padding: 10px;
+
+}
+.texto_banner p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+    padding: 10px;
+
+}
+.texto_banner a:hover{
+    font-style: italic;
+    color: rgb(248, 246, 244);
+    padding: 16px;
+}
+/*********************************************************************/
+/****************************  DESTAQUE  *****************************/
+
+.destaque{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    top: 580px;
+    border: 2px solid red;
+    background-color: rgb(247, 247, 241);
+
+}
+.img_destaque{
+    float: left;
+    width: 230px;
+    top: 500px;
+    left: 30px;
+    padding: 16px;
+
+}
+.img_destaque figure img{
+    margin: 230px 0px 0px 0px;
+    width: 230px;
+    height: 150px;
+    margin-left: 50px;
+
+}
+.img_destaque figure img:hover{
+    margin: 230px 0px 0px 0px;
+    width: 230px;
+    height: 150px;
+    margin-left: 50px;
+    background-color: aliceblue;
+
+}
+figcaption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 24px;
+    font-style: normal;
+    margin-left: 12px;
+    text-align: center;
+
+}
+.texto_destaque{
+    position: absolute;
+    width: 970px;
+    height: 106px;
+    left: 235px;
+}
+.texto_destaque h1{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.texto_destaque p {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+}
