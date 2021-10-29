@@ -36,6 +36,15 @@ a{
     text-size-adjust: 30px;
 
 }
+a:hover{
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    text-size-adjust: 30px;
+    text-shadow: 1px 1px 1px black;
+
+}
 button{
     position: absolute;
     width: 110px;
@@ -46,14 +55,14 @@ button{
     text-decoration: none;
     text-size-adjust: 50px;
     color: black;
-    background-color: #57ecf5;
+    background-color: #079ff7;
     border-radius: 7px;
-    border-color: #57ecf5;
+    border-color: #079ff7;
     
 
 }
 button:hover{
-	color: #57ecf5;
+	color: black;
 	background-color: #299adb;
     border-color: #299adb;
 	/*CSS 3*/
@@ -82,6 +91,10 @@ button:hover{
     margin-left: 75px;
 
 }
+.banner figure img:hover{
+    border: 2px solid black;
+
+}
 .texto_banner{
     position: absolute;
     width: 571px;
@@ -107,9 +120,8 @@ button:hover{
 
 }
 .texto_banner a:hover{
-    font-style: italic;
-    color: rgb(248, 246, 244);
-    padding: 16px;
+    color: black;
+
 }
 /*********************************************************************/
 /****************************  DESTAQUE  *****************************/
@@ -119,7 +131,7 @@ button:hover{
     width: 1440px;
     height: 500px;
     top: 580px;
-    border: 2px solid red;
+    border: ;
     background-color: rgb(247, 247, 241);
 
 }
@@ -143,7 +155,7 @@ button:hover{
     width: 230px;
     height: 150px;
     margin-left: 50px;
-    background-color: aliceblue;
+    border: 2px solid black
 
 }
 figcaption{
@@ -155,6 +167,16 @@ figcaption{
     margin-left: 12px;
     text-align: center;
 
+}
+figcaption:hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 35px;
+    font-style: normal;
+    margin-left: 12px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .texto_destaque{
     position: absolute;
@@ -179,4 +201,148 @@ figcaption{
     text-decoration: none;
     text-size-adjust: 24px;
     font-style: normal;
+}
+/*********************************************************************/
+/****************************  NOVIDADES  ****************************/
+
+.novidades{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    top: 1080px;
+    left: 0px;
+    border: ;
+    background-color: #082373;
+}
+.novidades img{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 886px;
+
+}
+.novidades img:hover{
+    border: 2px solid black;
+
+}
+.texto_novidades{
+    position: absolute;
+    width: 570px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 90px;
+   
+
+}
+.texto_novidades h1{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+    text-size-adjust: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2px;
+
+}
+.texto_novidades p {
+    margin-top: 30px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+    text-size-adjust: 24px;
+    font-style: normal;
+    margin-bottom: 20px;
+
+}
+.texto_novidades a{
+    position: absolute;
+    margin-top: 40px;
+    color: rgb(221, 217, 217);
+}
+.texto_novidades a:hover{
+    font-style: ;
+    color: #ffffff;
+    
+}
+/*********************************************************************/
+/****************************    FOOTER  ****************************/
+
+.rodape{
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    background-color: rgb(247, 247, 241);
+    margin-top: 1500px;
+}
+.logo_rodape img{
+    width: 250px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 130px;
+
+}
+.info_contato{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    margin-left: 540px;
+    margin-top: 50px;
+    top: 40px;
+
+}
+.info_contato p {
+    font-size: 14px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-top: 16px;
+   text-decoration: none;
+  
+
+}
+.info_contato .topico{
+    font-weight: bold;
+    font-size: 16px;
+}
+.redes_sociais figure{
+    position: absolute;
+    width: 650px;
+    height: 200px;
+    left: 950px;
+    top: 70px;
+
+}
+ .img1{
+    width: 70px;
+    height: 70px;
+}
+.img2{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+.img3{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+.img4{
+    width:auto;
+    height: 70px;
+    padding-left: 10px;
+}
+.menu_rodape{
+  
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 1050px;
+    top: 170px;
+}
+li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+li:hover{
+    text-transform: uppercase;
 }
